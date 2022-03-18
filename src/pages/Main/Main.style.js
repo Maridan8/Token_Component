@@ -131,14 +131,19 @@ export const DepositBtn = styled.div`
     border-radius: 70px;
     background: linear-gradient(0deg, rgba(0, 87, 255, 0.25), rgba(0, 87, 255, 0.25)), linear-gradient(180deg, #05F5CA 0%, #1E64D0 100%);
     font-family: Ovo;
+    transition: all .3s ease-in-out;
     font-size: 20px;
     color: #fff;
+    :hover{
+            background: linear-gradient(0deg, rgba(0, 87, 255, 0.25), rgba(0, 87, 255, 0.25)), linear-gradient(180deg, #05F5CA 0%, #1E64D0 50%);
+    }
 `;
 export const WithDrawBtn = styled.div`
     width: 120px;
     height: 40px;
     border: 1px solid #4285EC;
     box-sizing: border-box;
+    transition: all .3s ease-in-out;
     cursor: pointer;
     color: #4285EC;
     display: flex;
@@ -147,6 +152,9 @@ export const WithDrawBtn = styled.div`
     font-family: Ovo;
     font-size: 20px;
     border-radius: 70px;
+        :hover{
+        border-color: #1560d1;
+    }
 `;
 export const AllBtn = styled.div`
     width: 150px;
@@ -154,6 +162,7 @@ export const AllBtn = styled.div`
     border: 1px solid #4285EC;
     cursor: pointer;
     box-sizing: border-box;
+    transition: all .3s ease-in-out;
     color: #4285EC;
     display: flex;
     justify-content: center;
@@ -161,6 +170,9 @@ export const AllBtn = styled.div`
     font-family: Ovo;
     font-size: 20px;
     border-radius: 70px;
+        :hover{
+        border-color: #1560d1;
+    }
 `;
 export const SmallText = styled.div`
     color: rgba(255,255,255,0.3);
@@ -190,6 +202,10 @@ export const ManualBtn = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    transition: all .3s ease-in-out;
     justify-content: center;
     align-items: center;
+    :hover{
+        border-color: #1560d1;
+    }
 `;
