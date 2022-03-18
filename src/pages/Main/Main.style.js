@@ -121,59 +121,6 @@ export const BtnPart = styled.div`
     gap: 10px;
     margin-top: 20px;
 `;
-export const DepositBtn = styled.div`
-    width: 120px;
-    height: 40px;
-    display: flex;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    border-radius: 70px;
-    background: linear-gradient(0deg, rgba(0, 87, 255, 0.25), rgba(0, 87, 255, 0.25)), linear-gradient(180deg, #05F5CA 0%, #1E64D0 100%);
-    font-family: Ovo;
-    transition: all .3s ease-in-out;
-    font-size: 20px;
-    color: #fff;
-    :hover{
-            background: linear-gradient(0deg, rgba(0, 87, 255, 0.25), rgba(0, 87, 255, 0.25)), linear-gradient(180deg, #05F5CA 0%, #1E64D0 50%);
-    }
-`;
-export const WithDrawBtn = styled.div`
-    width: 120px;
-    height: 40px;
-    border: 1px solid #4285EC;
-    box-sizing: border-box;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    color: #4285EC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Ovo;
-    font-size: 20px;
-    border-radius: 70px;
-        :hover{
-        border-color: #1560d1;
-    }
-`;
-export const AllBtn = styled.div`
-    width: 150px;
-    height: 40px;
-    border: 1px solid #4285EC;
-    cursor: pointer;
-    box-sizing: border-box;
-    transition: all .3s ease-in-out;
-    color: #4285EC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Ovo;
-    font-size: 20px;
-    border-radius: 70px;
-        :hover{
-        border-color: #1560d1;
-    }
-`;
 export const SmallText = styled.div`
     color: rgba(255,255,255,0.3);
     letter-spacing: 0.04em;
@@ -188,24 +135,8 @@ export const SmallText = styled.div`
     }
 `;
 export const ManualBtn = styled.div`
-    border: 1px solid #4285EC;
-    width: 200px;
-    height: 45px;
-    color: #4285EC;
-    margin: 20px auto 0 auto;
-    border-radius: 70px;
-    cursor: pointer;
-    font-family: Ovo;
-    display: flex;
-    font-size: 20px;
-    background: linear-gradient(180deg, #05B4F5 0%, #1E64D0 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    transition: all .3s ease-in-out;
+    width:100%;
     justify-content: center;
-    align-items: center;
-    :hover{
-        border-color: #1560d1;
-    }
+    display: flex;
+    margin-top: 30px;
 `;

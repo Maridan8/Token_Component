@@ -1,8 +1,9 @@
 import React from "react";
 import Slider from '@mui/material/Slider';
+import Button from '@mui/material/Button';
 
 import {
-  MainOut, Autobody, Topbody, TopbodyLeft, TopbodyRight, ImgPart, TokenImg, TopItem, TopBlueText, TopwhiteText, InputPart, InputTitle, InputItem, CusInput, BtnPart, DepositBtn, ManualBtn, WithDrawBtn, AllBtn, SmallText
+  MainOut, Autobody, Topbody, TopbodyLeft, TopbodyRight, ImgPart, TokenImg, TopItem, TopBlueText, TopwhiteText, InputPart, InputTitle, InputItem, CusInput, BtnPart, ManualBtn, SmallText
 } from "./Main.style";
 const MainPage = () => {
   return (
@@ -41,7 +42,7 @@ const MainPage = () => {
             <CusInput type='text' placeholder='5000' />
             <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" />
             <BtnPart>
-              <DepositBtn>Deposit</DepositBtn>
+              <Button variant="contained">Deposit</Button>
             </BtnPart>
             <SmallText>
               You will receive Auto-X token as a receipt for your deposited
@@ -54,8 +55,8 @@ const MainPage = () => {
             <CusInput type='text' placeholder='5000' />
             <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" />
             <BtnPart>
-              <WithDrawBtn>Withdraw</WithDrawBtn>
-              <AllBtn>Withdraw All</AllBtn>
+              <Button variant="outlined">Withdraw</Button>
+              <Button variant="outlined">Withdraw All</Button>
             </BtnPart>
             <SmallText width='190px'>
               Deposit Fee: 0%, Withdrawal Fee: 0.1%
@@ -64,7 +65,9 @@ const MainPage = () => {
             </SmallText>
           </InputItem>
         </InputPart>
-        <ManualBtn>Manual Compound</ManualBtn>
+        <ManualBtn>
+          <Button variant="outlined">Manual Compound</Button>
+        </ManualBtn>
       </Autobody>
     </MainOut>
   );

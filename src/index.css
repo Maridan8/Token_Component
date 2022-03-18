@@ -34,3 +34,41 @@
     -webkit-animation: spinBack 1s linear infinite;
     animation: spinBack 1s linear infinite;
 }
+
+.MuiButton-contained {
+    width: 120px !important;
+    height: 40px !important;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px !important;
+    background: linear-gradient(0deg, rgba(0, 87, 255, 0.25), rgba(0, 87, 255, 0.25)), linear-gradient(180deg, #05F5CA 0%, #1E64D0 100%);
+    font-family: 'Ovo' !important;
+    font-size: 20px !important;
+    text-transform: none !important;
+    color: #fff;
+}
+
+.MuiButton-contained:hover {
+    background: linear-gradient(0deg, rgba(0, 87, 255, 0.25), rgba(0, 87, 255, 0.25)), linear-gradient(180deg, #05F5CA 0%, #1E64D0 50%);
+}
+
+.MuiButton-outlined {
+    border: 1px solid #4285EC;
+    color: #4285EC;
+    margin: 20px auto 0 auto;
+    border-radius: 70px !important;
+    cursor: pointer;
+    font-family: Ovo !important;
+    display: flex;
+    text-transform: none !important;
+    font-size: 20px !important;
+    background: linear-gradient(180deg, #05B4F5 0%, #1E64D0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all .3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
